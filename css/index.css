@@ -1,0 +1,504 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-style: normal; }
+
+.header {
+    width: 1210px;
+    height: 80px;
+    margin: 0 auto;
+    background: url(../images/login.png) no-repeat;
+    background-position: left center;
+    padding-left: 370px;
+    box-sizing: border-box; }
+.header:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    line-height: 0; }
+.header ul.nav {
+    width: 600px;
+    height: 100%;
+    text-align: justify;
+    float: left; }
+.header ul.nav:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    line-height: 0; }
+.header ul.nav li {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 80px;
+    position: relative; }
+.header ul.nav li.active a {
+    color: #cf001c; }
+.header ul.nav li.active:after {
+    display: block; }
+.header ul.nav li:after {
+    display: none;
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #cf001c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+.header ul.nav li a {
+    display: inline-block;
+    color: #000000;
+    transition: all .5s ease;
+    padding: 0 15px; }
+.header ul.nav li:hover a {
+    color: #cf001c; }
+.header > a {
+    font-size: 16px;
+    color: #000000;
+    line-height: 80px;
+    float: right;
+    margin-left: 25px; }
+.header > a:hover {
+    color: #cf001c; }
+
+.banner {
+    width: 100%;
+    height: 794px;
+    background: url(../images/banner_02.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center; }
+.banner .banner-box {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative; }
+.banner .banner-box .span {
+    display: block;
+    position: absolute;
+    top: 258px;
+    left: 131px;
+    width: 236px;
+    height: 72px;
+    background: url("../images/name_03.png"); }
+.banner .banner-box .span_botton {
+    width: 278px;
+    height: 30px;
+    position: absolute;
+    top: 367px;
+    left: 236px;
+    display: flex;
+    align-items: center; }
+.banner .banner-box .span_botton span {
+    display: block;
+    font-size: 16px;
+    color: #999; }
+.banner .banner-box .span_botton span:nth-of-type(1) {
+    width: 89px;
+    height: 2px;
+    background: #ccc; }
+.banner .banner-box .span_botton span:nth-of-type(2) {
+    width: 37px;
+    height: 25px;
+    background: url("../images/feiji.png") 100%/100% no-repeat;
+    margin: 0 10px; }
+.banner .banner-box .icon {
+    position: absolute; }
+.banner .banner-box .icon:nth-of-type(2) {
+    top: 132px;
+    left: 146px; }
+.banner .banner-box .icon:nth-of-type(3) {
+    top: 592px;
+    left: 319px; }
+.banner .banner-box .icon:nth-of-type(4) {
+    top: 716px;
+    left: 473px; }
+.banner .banner-box .icon:nth-of-type(5) {
+    top: 617px;
+    left: 566px; }
+.banner .banner-box .icon:nth-of-type(6) {
+    top: 548px;
+    left: 477px; }
+.banner .banner-box .icon:nth-of-type(7) {
+    top: 731px;
+    left: 612px; }
+.banner .banner-box .icon:nth-of-type(8) {
+    top: 201px;
+    left: 1059px; }
+.banner .banner-box .icon:nth-of-type(9) {
+    top: 325px;
+    left: 1078px; }
+
+.section {
+    width: 100%;
+    height: 634px;
+    background: url("../images/beijing2_02.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top: 1px solid #fff; }
+.section .Authentication {
+    width: 1210px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center; }
+.section .Authentication h3 {
+    margin-top: 130px;
+    font-size: 36px; }
+.section span {
+    display: block;
+    width: 40px;
+    height: 27px;
+    background: url("../images/feiji.png") 100%/100% no-repeat;
+    margin: 33px auto; }
+.section p {
+    width: 1050px;
+    font-size: 18px;
+    color: #666;
+    margin: 0 auto;
+    line-height: 30px; }
+.section .experience {
+    width: 260px;
+    height: 52px;
+    background: #e41e13;
+    margin: 100px auto;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 3px rgba(207, 0, 28, 0.2); }
+.section .experience a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 52px;
+    color: #fff; }
+
+.process {
+    width: 100%;
+    height: 936px;
+    background: url("../images/liucheng_05.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center; }
+.process .process_box {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 120px;
+    text-align: center;
+    box-sizing: border-box; }
+.process .process_box h3 {
+    font-size: 36px;
+    color: #000; }
+.process .process_box .h3_bottom {
+    width: 34px;
+    height: 2px;
+    background: #e60612;
+    margin: 31px auto; }
+.process .process_box ul li {
+    width: 130px;
+    height: 130px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer; }
+.process .process_box ul li img {
+    display: block;
+    width: 109px;
+    height: 86px;
+    margin-left: 20px; }
+.process .process_box ul li:hover {
+    transform: rotate(360deg); }
+.process .process_box ul li:nth-of-type(1) {
+    top: 448px;
+    left: 183px; }
+.process .process_box ul li:nth-of-type(2) {
+    top: 630px;
+    left: 415px; }
+.process .process_box ul li:nth-of-type(3) {
+    top: 458px;
+    left: 655px; }
+.process .process_box ul li:nth-of-type(4) {
+    top: 244px;
+    left: 910px; }
+.process .process_box span {
+    display: block;
+    text-align: center;
+    position: absolute;
+    font-size: 16px; }
+.process .process_box span:nth-of-type(1) {
+    top: 600px;
+    left: 190px; }
+.process .process_box span:nth-of-type(2) {
+    top: 785px;
+    left: 370px; }
+.process .process_box span:nth-of-type(3) {
+    top: 621px;
+    left: 670px; }
+.process .process_box span:nth-of-type(4) {
+    top: 410px;
+    left: 925px; }
+
+.Letter {
+    width: 100%;
+    height: 1100px;
+    background: url("../images/beijing1_06.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center; }
+.Letter .letter_box {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 120px;
+    text-align: center;
+    box-sizing: border-box; }
+.Letter .letter_box h3 {
+    font-size: 36px;
+    color: #000; }
+.Letter .letter_box .h3_bottom {
+    width: 34px;
+    height: 2px;
+    background: #e60612;
+    margin: 31px auto; }
+.Letter .letter_box .content {
+    width: 470px;
+    height: 655px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background: white; }
+.Letter .letter_box .content:nth-of-type(1) {
+    top: 276px;
+    left: 10px;
+    z-index: 1; }
+.Letter .letter_box .content:nth-of-type(2) {
+    top: 221px;
+    left: 368px;
+    z-index: 2;
+    transform: scale(1); }
+.Letter .letter_box .content:nth-of-type(3) {
+    top: 250px;
+    left: 838px;
+    z-index: 1;
+    transform: scale(0.8); }
+.Letter .letter_box .content .sd {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center; }
+.Letter .letter_box .content .yj {
+    width: 82px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center; }
+.Letter .letter_box .content .top {
+    width: 100%;
+    height: 249px;
+    border-bottom: 1px dashed #ccc;
+    box-sizing: border-box;
+    padding-top: 46px; }
+.Letter .letter_box .content .top .tou {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto; }
+.Letter .letter_box .content .top .cantive {
+    width: 100%;
+    height: auto;
+    margin-top: 28px; }
+.Letter .letter_box .content .top .cantive p {
+    width: 100%;
+    height: auto;
+    line-height: 30px; }
+.Letter .letter_box .content .top .cantive p span {
+    font-size: 12px;
+    color: #999; }
+.Letter .letter_box .content .top .cantive p i {
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #999;
+    margin: 0 10px; }
+.Letter .letter_box .content .bottom {
+    width: 100%;
+    height: auto; }
+.Letter .letter_box .content .bottom ul {
+    width: 100%;
+    height: auto; }
+.Letter .letter_box .content .bottom ul li {
+    width: 390px;
+    height: 78px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; }
+.Letter .letter_box .content .bottom ul li img:nth-of-type(1) {
+    display: block;
+    width: 30px;
+    height: 30px; }
+.Letter .letter_box .content .bottom ul li span {
+    display: block;
+    margin: 0 17px;
+    font-size: 14px;
+    color: #000; }
+.Letter .letter_box .content .bottom ul li i {
+    display: block;
+    height: 1px;
+    border-top: 1px dashed #ccc;
+    margin-right: 14px; }
+.Letter .letter_box .content .bottom ul li:nth-of-type(1) > i {
+    width: 160px; }
+.Letter .letter_box .content .bottom ul li:nth-of-type(2) > i {
+    width: 125px; }
+.Letter .letter_box .content .bottom ul li:nth-of-type(3) > i {
+    width: 55px; }
+.Letter .letter_box .content .bottom ul li:nth-of-type(4) > i {
+    width: 75px; }
+.Letter .letter_box .content .bottom ul li:nth-of-type(5) > i {
+    width: 40px; }
+.Letter .letter_box .content .bottom ul li img:nth-of-type(2) {
+    display: block;
+    width: 26px;
+    height: 32px; }
+.Letter .letter_box .experience {
+    width: 260px;
+    height: 52px;
+    background: #e41e13;
+    position: absolute;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 3px rgba(207, 0, 28, 0.2);
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 100px; }
+.Letter .letter_box .experience a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 52px;
+    color: #fff; }
+
+.vcard {
+    width: 100%;
+    height: 990px;
+    background: url("../images/beijing2_07.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center; }
+.vcard .vcard_box {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 120px;
+    text-align: center;
+    box-sizing: border-box; }
+.vcard .vcard_box h3 {
+    font-size: 36px;
+    color: #000; }
+.vcard .vcard_box .h3_bottom {
+    width: 34px;
+    height: 2px;
+    background: #e60612;
+    margin: 31px auto; }
+.vcard .vcard_box .experience {
+    width: 260px;
+    height: 52px;
+    background: #e41e13;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 3px rgba(207, 0, 28, 0.2);
+    margin-top: 42px; }
+.vcard .vcard_box .experience a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 52px;
+    color: #fff; }
+
+.cooperation {
+    width: 100%;
+    height: 515px;
+    background: url("../images/footer_02.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center; }
+.cooperation .cooperation_box {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 120px;
+    text-align: center;
+    box-sizing: border-box; }
+.cooperation .cooperation_box h3 {
+    font-size: 36px;
+    color: #000; }
+.cooperation .cooperation_box .h3_bottom {
+    width: 34px;
+    height: 2px;
+    background: #e60612;
+    margin: 31px auto; }
+
+.footer {
+    width: 100%;
+    height: 280px;
+    background: #303030; }
+.footer .footer_box {
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    position: relative; }
+.footer .footer_box dl {
+    margin-right: 163px; }
+.footer .footer_box dl dt {
+    font-size: 18px;
+    color: #ccc; }
+.footer .footer_box dl dd {
+    margin-top: 16px;
+    font-size: 14px; }
+.footer .footer_box dl dd a {
+    color: #7c7c7c;
+    transition: all 0.5s ease; }
+.footer .footer_box dl dd a:hover {
+    color: #fff; }
+.footer .footer_box .code {
+    width: 148px;
+    height: 148px; }
+.footer .footer_box .code .code_box {
+    width: 100%;
+    height: 100%;
+    background: url("../images/erweima.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center; }
+.footer .footer_box .code span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #666666; }
+.footer .footer_box p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center; }
